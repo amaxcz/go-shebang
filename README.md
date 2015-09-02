@@ -7,7 +7,7 @@ Go-shebang is a runner for Go source files like a regular shell sript.
   - simple and secure
 
 
-> For a long time I was looking for a simple way to create a comfortable scripts, and finally I solved this problem in one evening.
+> For a long time I was looking for a simple way to create a comfortable scripts, and finally I solved this problem in one night.
 
 ### Version
 1.0
