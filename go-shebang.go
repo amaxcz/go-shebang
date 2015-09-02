@@ -124,8 +124,6 @@ func CompileFile(tmpdir, srcfile, runfile string) (err error) {
 	    return err
 	}
 	
-	fmt.Println(os.Stderr,  content)
-	
 	if len(content) > 2 && content[0] == '#' && content[1] == '!' {
 		content, err := ioutil.ReadFile(srcfile)
 	    if err != nil {
