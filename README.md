@@ -2,8 +2,9 @@
 
 Go-shebang is a runner for Go source files like a regular shell sript.
 
-  - runs Go source files like a regular shell script files (bash, etc..)
-  - works well with script args
+  - works with **shebang** like #!/bin/bash
+  - runs Go lang source files like a regular shell script files (bash, etc..)
+  - works well with script args $1 $2 etc ...
   - simple and secure
 
 
