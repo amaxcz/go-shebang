@@ -67,5 +67,12 @@ chmod 755 /usr/local/bin/gorun
 update-binfmts --install go /usr/local/bin/gorun --extension go
 ```
 
-Enjoy!
+### See also
+
+  - [About wrappers] http://tldp.org/LDP/abs/html/wrapper.html
+  - [gorun] https://wiki.ubuntu.com/gorun and http://bazaar.launchpad.net/~niemeyer/gorun/trunk/view/head:/gorun.go
+  - [go lang cookbook] http://golangcookbook.com/chapters/running/shebang/
+
+
+###Enjoy!
 
