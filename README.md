@@ -51,5 +51,21 @@ $ ./go-shebang testfile
 Hello World.
 ```
 
+### Debian/Ubuntu workaround
+You can try one more solution for files with .go extension, only for Linux.
+
+```sh
+apt-get install binfmt-support
+
+cat > /usr/local/bin/gorun << EOF
+#!/bin/sh
+/usr/bin/go run "\$@"
+EOF
+
+chmod 755 /usr/local/bin/gorun
+
+update-binfmts --install go /usr/local/bin/gorun --extension go
+```
+
 Enjoy!
 
